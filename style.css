@@ -145,7 +145,6 @@ h1{
 }
 
 .carousel-item.py-5.active .row .col-sm-6.center-block.text-center {
-    padding-top: 50px;
 }
 .carousel-inner .carousel-item.py-5.active .row {
     margin-bottom: -10px;
@@ -231,9 +230,11 @@ img {
     font-weight: bolder;
     color: #6C6C6C;
     text-transform: capitalize;
-    text-align: center;
-    display: inherit;
+    display: absolute;
 }
 .col-lg-4 .card.col-md-4.col-lg-12 .card-body {
 	background-blend-mode: normal;
+}
+.container-fluid .container.text-center.outline.bio .row.thanksrow {
+    list-style-type: none;
 }
